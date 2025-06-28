@@ -3,12 +3,12 @@
 ## CRUD JSON File Repository
 
 ### Models:
-#### Task:
-- id
-- description
-- status (todo, in-progress, done)
-- createdAt
-- updatedAt
+#### ~Task:~
+- ~id~
+- ~description~
+- ~status (todo, in-progress, done)~
+- ~createdAt~
+- ~updatedAt~
 
 ### Methods:
 #### Create:
