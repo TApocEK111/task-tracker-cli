@@ -70,3 +70,15 @@ output: comand object (probably will be changed later)
     - Make color distinction
     - Handle possible exceptions
     - Inform a user about exceptions
+
+## Documentation ideas
+
+### Troubleshooting advice
+
+- What to do in case of damaged id_pool.json or my_tasks.json files
+
+## Optimization and refactoring ideas
+
+- Change generating and releasing id
+    - Most probably inserting an id at index of its value is gonna result in quicker sort of the pool.
+- Refactor id generator test
