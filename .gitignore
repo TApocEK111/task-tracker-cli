@@ -195,4 +195,8 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-#-------Python END-------
+#-------Python END---------
+
+#-------Situational BEGIN-------
+arbitrary_tests.py
+#-------Situational END---------
