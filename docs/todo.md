@@ -2,27 +2,27 @@
 
 ## CRUD JSON File Repository
 
-### Models:
-#### Task:
-- id
-- description
-- status (todo, in-progress, done)
-- createdAt
-- updatedAt
+### ~Models:~
+#### ~Task:~
+- ~id~
+- ~description~
+- ~status (todo, in-progress, done)~
+- ~createdAt~
+- ~updatedAt~
 
 ### Methods:
-#### Create:
-- Create a task
+#### ~Create:~
+- ~Create a task~
 
 #### Update:
-- Update task's status (mark)
-- Update task's description (update)
-- When using any of the update methods, update task's updatedAt property
+- ~Update task's status (mark)~
+- ~Update task's description (update)~
+- ~When using any of the update methods, update task's updatedAt property~
 
 #### Read:
-- Get a task by id
-- Get a task by status
-- Get all tasks
+- ~Get a task by id~
+- ~Get a task by status~
+- ~Get all tasks~
 
 
 ## Comands
@@ -70,3 +70,16 @@ output: comand object (probably will be changed later)
     - Make color distinction
     - Handle possible exceptions
     - Inform a user about exceptions
+
+## Documentation ideas
+
+### Troubleshooting advice
+
+- What to do in case of damaged id_pool.json or my_tasks.json files
+
+## Optimization and refactoring ideas
+
+- Change generating and releasing id
+    - Most probably inserting an id at index of its value is gonna result in quicker sort of the pool.
+- Refactor id generator test
+- Making id pool into hashset probably would be fastre (though not sure it worths the work in this case)
